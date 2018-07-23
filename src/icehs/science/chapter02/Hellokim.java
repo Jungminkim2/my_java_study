@@ -3,7 +3,7 @@ package icehs.science.chapter02;
 public class Hellokim {
 
 	public static void main(String[] args) {
-		System.out.println("¾È³çÇÏ¼¼¿ä ? ±èÁ¤¹Î´Ô");
+		System.out.println("ì•ˆë…•í•˜ì„¸ìš”? ê¹€ì •ë¯¼ë‹˜");
 
 	}
 
