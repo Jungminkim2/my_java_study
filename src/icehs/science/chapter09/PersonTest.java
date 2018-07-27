@@ -6,10 +6,10 @@ public class PersonTest {
 		Student student = new Student();
 		Teacher teacher = new Teacher();
 		System.out.println("========Student=======");
-		student.study();
+		//student.study();
 		student.eat();
 		System.out.println("========Teacher=======");
-		teacher.teach();
+		//teacher.teach();
 		teacher.eat();
 	}
 

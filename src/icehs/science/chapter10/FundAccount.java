@@ -1,7 +1,8 @@
-package icehs.science.chapter09;
+package icehs.science.chapter10;
 
 public class FundAccount extends Account {
 	private double earningRate;
+	private int calculateRate;
 	public FundAccount(String name , String number, int balance, double earningRate) {
 		super(number, name, balance);
 		this.earningRate = earningRate;
@@ -26,5 +27,8 @@ public class FundAccount extends Account {
 	public void earnMoney() {
 		System.out.println("수익율 : "+ this.earningRate + "%");
 		System.out.println("수익이 발생했습니다.");
+	}
+	public void calculateRate() {
+		
 	}
 }
